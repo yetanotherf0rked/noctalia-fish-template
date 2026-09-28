@@ -1,0 +1,8 @@
+# ~/.config/noctalia/templates.toml
+
+[theme.templates.user.fish]
+input_path    = "$XDG_CONFIG_HOME/noctalia/templates/fish.theme"
+output_path   = "$XDG_CONFIG_HOME/fish/conf.d/noctalia-theme.fish"
+requires_path = "$XDG_CONFIG_HOME/fish"
+post_hook     = "fish -c 'source $XDG_CONFIG_HOME/fish/conf.d/noctalia-theme.fish'"
+hook_async    = false
